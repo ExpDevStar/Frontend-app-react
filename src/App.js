@@ -1,10 +1,19 @@
 import React from 'react';
-import './App.css';
+import ReactDOM from "react-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
+
+import { SignIn, SignUp, ForgotPassword } from './pages';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-
+        <Switch>
+          <Route path="/signin" component={SignIn}/>
+          <Route path="/signup" component={SignUp}/>
+          <Route path="/forgotpassword" component={ForgotPassword}/>
+          <Route render={ props => <Redirect to={{ pathname: '/signin', state: { from: props.location } }} /> } />
+        </Switch>
     </div>
   );
 }
