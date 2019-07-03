@@ -23,7 +23,7 @@ class SignIn extends Component {
                 </div>
             </form>
         </div>
-        <div class="signup-options-container">
+        <div className="signup-options-container">
             <NavLink to="/signup" className="signup-link">Sign Up</NavLink>
             <NavLink to="/forgotpassword" className="forgot-password-link">Forgot</NavLink>
         </div>
