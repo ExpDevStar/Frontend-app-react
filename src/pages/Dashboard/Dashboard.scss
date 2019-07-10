@@ -1,0 +1,40 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+
+
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: -webkit-fill-available;
+
+
+        .overview-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .overview-table{
+                // border: 1px solid red;
+                margin:25px;
+                display: flex;
+            }
+            .table-container{
+                border: 1px solid red;
+            }
+            .overview-graph {
+                // border: 1px solid blue;
+                margin: 30px;
+            }
+        }
+
+
+
+        .footer-container{
+            min-height: 8vh;
+            border-radius: 10px;
+            background-color: black;
+        }
+    }
+}

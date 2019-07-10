@@ -1,0 +1,32 @@
+.sidebar-container {
+    width:15vw;
+    height:100%;
+    float: left;
+    background-color: #646464;
+    font-family: Lato;
+    color: white;
+    font-size: 16px;
+
+    .fa{
+        margin-right: 10px;
+    }
+    .navigation-type{
+        margin-top: 35px;
+    }
+    .Currency-type{
+        margin-top: 25px;
+    }
+    .other-containt{
+        margin-top: 25px;
+    }
+
+
+    .nav-item{
+        width:100%;
+        margin-top: 10px;
+        height: 35px;
+        background-color: #969696;
+        text-align: left;
+        padding-left: 36px;
+    }
+}

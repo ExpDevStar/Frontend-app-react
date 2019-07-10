@@ -1,0 +1,28 @@
+.line-chart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: center;
+    // border: 1px solid black;
+
+    .line-chart-controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // border: 1px solid blue;
+
+    }
+
+
+    .line-chart-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 50vw;
+        height: 40vh;
+        box-shadow: 1px 5px 12px 6px #DBDBDB;
+        padding: 20px;
+        // border: 1px solid orange;
+
+    }
+}
