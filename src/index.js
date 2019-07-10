@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 import { IntlProvider } from "react-intl";
 import messages_en from "./translation/en.json";
